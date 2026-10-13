@@ -30,6 +30,23 @@ Batch runs fail if the project is open in the editor (project lock), so close it
   - `-noShadows`, `-noSun` and `-noDof` switch those off when you are chasing an artefact.
   - Snapshots, like `-autoplay`, set `Settings.Persist = false`, so they never write PlayerPrefs (options or high score).
 
+## Public repo and README media
+
+The project is public at https://github.com/Mad-Mange/PacMan3D-Tabletop.
+- Never commit `inspiration/` or anything personal.
+- Commit messages end with the Co-Authored-By trailer.
+
+The README images live in `docs/images`.
+
+**Stills:** from the snapshot tool, using `Capture(..., withHud: false)` for the clean table shots.
+
+**GIFs:**
+1. Build the player.
+2. Run `PacMan3D.exe -screen-fullscreen 0 -screen-width 960 -screen-height 540 -autoplay -mute [-camera follow] -record <dir> <startSeconds> <frames>`. It saves every frame at a fixed 30 fps game time.
+3. Turn the frames into a GIF with Pillow (every 2nd frame, a shared palette, 600-720 px wide, under about 6 MB).
+
+There is no ffmpeg or global Pillow on this machine. Use a throwaway venv in the scratchpad.
+
 ## Architecture
 
 **`PacMan.Core` (Assets/Scripts/Core) is the whole rule set, with no rendering.**

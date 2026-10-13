@@ -4,6 +4,11 @@ Senast uppdaterad 2026-10-14.
 
 ## Läget
 
+- Projektet är publicerat som ett publikt repo: https://github.com/Mad-Mange/PacMan3D-Tabletop
+  - README:n har bilder och två GIF:ar från spelet.
+  - Inspirationsfotot ligger bara lokalt (git-ignorerat) eftersom det inte är vårt foto.
+  - Repot saknar licens än. Lägg till en (t.ex. MIT) om andra ska få återanvända koden.
+
 - Spelet är spelbart från början till slut:
   - titelskärm med en kamera som cirklar runt brädet
   - demoläge där AI:n spelar
