@@ -1,0 +1,257 @@
+{
+  "palette": [
+    {
+      "key": "R",
+      "name": "FruitRed",
+      "rgb": [
+        235,
+        25,
+        35
+      ]
+    },
+    {
+      "key": "W",
+      "name": "FruitWhite",
+      "rgb": [
+        255,
+        240,
+        235
+      ]
+    },
+    {
+      "key": "B",
+      "name": "FruitBrown",
+      "rgb": [
+        150,
+        90,
+        40
+      ]
+    },
+    {
+      "key": "G",
+      "name": "FruitGreen",
+      "rgb": [
+        40,
+        190,
+        60
+      ]
+    },
+    {
+      "key": "O",
+      "name": "FruitOrange",
+      "rgb": [
+        255,
+        150,
+        30
+      ]
+    },
+    {
+      "key": "L",
+      "name": "FruitLightGreen",
+      "rgb": [
+        130,
+        230,
+        90
+      ]
+    },
+    {
+      "key": "D",
+      "name": "FruitDarkGreen",
+      "rgb": [
+        20,
+        120,
+        40
+      ]
+    },
+    {
+      "key": "Y",
+      "name": "FruitYellow",
+      "rgb": [
+        255,
+        220,
+        30
+      ]
+    },
+    {
+      "key": "U",
+      "name": "FruitBlue",
+      "rgb": [
+        40,
+        90,
+        255
+      ]
+    },
+    {
+      "key": "C",
+      "name": "FruitCyan",
+      "rgb": [
+        60,
+        230,
+        255
+      ]
+    },
+    {
+      "key": "S",
+      "name": "FruitSilver",
+      "rgb": [
+        200,
+        205,
+        215
+      ]
+    }
+  ],
+  "fruits": [
+    {
+      "name": "Cherry",
+      "rows": [
+        "..........BB..",
+        ".........B.B..",
+        "........B..B..",
+        ".......B...B..",
+        "......B....B..",
+        ".....B.....B..",
+        "..RRRR....B...",
+        ".RRRRRR.RRRR..",
+        ".RWRRRRRRRRRR.",
+        ".RRRRRRRWRRRR.",
+        ".RRRRRRRRRRRR.",
+        "..RRRR.RRRRRR.",
+        "........RRRR..",
+        ".............."
+      ]
+    },
+    {
+      "name": "Strawberry",
+      "rows": [
+        ".....G..G.....",
+        "...GGGGGGGG...",
+        "..RRGGGGGGRR..",
+        ".RRRRWRRWRRRR.",
+        ".RWRRRRRRRRWR.",
+        ".RRRRRWRRRRRR.",
+        ".RRRWRRRRWRRR.",
+        "..RRRRRRWRRR..",
+        "..RWRRRRRRWR..",
+        "...RRRWRRRR...",
+        "....RRRRWR....",
+        ".....RRRR.....",
+        "......RR......",
+        ".............."
+      ]
+    },
+    {
+      "name": "Orange",
+      "rows": [
+        ".......B......",
+        "......BGGG....",
+        ".....BGGGGG...",
+        "...OOBOOGG....",
+        "..OOOOOOOOO...",
+        ".OOOOOOOOOOO..",
+        ".OWOOOOOOOOO..",
+        ".OWOOOOOOOOO..",
+        ".OOOOOOOOOOO..",
+        ".OOOOOOOOOOO..",
+        "..OOOOOOOOO...",
+        "...OOOOOOO....",
+        ".....OOO......",
+        ".............."
+      ]
+    },
+    {
+      "name": "Apple",
+      "rows": [
+        "......B.......",
+        "......BGG.....",
+        "..RRRRBRRRR...",
+        ".RRRRRRRRRRR..",
+        ".RWRRRRRRRRR..",
+        ".RWRRRRRRRRR..",
+        ".RRRRRRRRRRR..",
+        ".RRRRRRRRRRR..",
+        ".RRRRRRRRRRR..",
+        "..RRRRRRRRR...",
+        "..RRRR.RRRR...",
+        "...RR...RR....",
+        "..............",
+        ".............."
+      ]
+    },
+    {
+      "name": "Melon",
+      "rows": [
+        "......B.......",
+        ".....BB.......",
+        "...LLDLLDL....",
+        "..LDLLDLLDL...",
+        ".LLDLLDLLDLL..",
+        ".LDLLDLLDLLD..",
+        ".LLDLLDLLDLL..",
+        ".LDLLDLLDLLD..",
+        ".LLDLLDLLDLL..",
+        "..LDLLDLLDL...",
+        "...LLDLLDL....",
+        ".....LLL......",
+        "..............",
+        ".............."
+      ]
+    },
+    {
+      "name": "Galaxian",
+      "rows": [
+        "......Y.......",
+        ".....YYY......",
+        ".....YRY......",
+        "..U..YRY..U...",
+        "..U.YYYYY.U...",
+        "..UYYYYYYYU...",
+        "..UUUYYYUUU...",
+        "..UU.YYY.UU...",
+        "..U..YYY..U...",
+        ".....Y.Y......",
+        "..............",
+        "..............",
+        "..............",
+        ".............."
+      ]
+    },
+    {
+      "name": "Bell",
+      "rows": [
+        "......YY......",
+        ".....YYYY.....",
+        "....YWYYYY....",
+        "...YWYYYYYY...",
+        "...YWYYYYYY...",
+        "...YWYYYYYY...",
+        "..YWYYYYYYYY..",
+        "..YYYYYYYYYY..",
+        ".YYYYYYYYYYYY.",
+        ".YYYYYYYYYYYY.",
+        "......UU......",
+        "......UU......",
+        "..............",
+        ".............."
+      ]
+    },
+    {
+      "name": "Key",
+      "rows": [
+        "....CCCCC.....",
+        "...CCCCCCC....",
+        "...CC...CC....",
+        "...CCCCCCC....",
+        "....CCCCC.....",
+        "......S.......",
+        "......SS......",
+        "......S.......",
+        "......SS......",
+        "......S.......",
+        "......SS......",
+        "......S.......",
+        "..............",
+        ".............."
+      ]
+    }
+  ]
+}
